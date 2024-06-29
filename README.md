@@ -2,12 +2,20 @@
 
 [![Built With Nuxt][build-with-nuxt-src]][build-with-nuxt-href]
 
-My minimal nuxt starter.
+My nuxt starter templates.
+
+## Templates
+
+- [⚡ Minimal](/minimal)
+- [🛆 shadcn](/shadcn)
+
+## Features
 
 - [x] [💅 ESlint](https://github.com/antfu/eslint-config)
 - [x] [📦 VueUse](https://vueuse.org/)
 - [x] [🖼️ Nuxt Image](https://image.nuxt.com/)
 - [x] [🎯 Nuxt Icon](https://nuxt.com/modules/icon)
+- [x] [☑️ Typecheck](https://nuxt.com/docs/api/commands/typecheck)
 
 ## Usage
 
