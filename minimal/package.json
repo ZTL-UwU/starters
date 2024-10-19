@@ -13,7 +13,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/icon": "^1.5.2",
+    "@nuxt/icon": "^1.5.6",
     "@nuxt/image": "^1.8.1",
     "nuxt": "^3.13.2",
     "vue": "latest"
@@ -23,7 +23,7 @@
     "@unocss/eslint-plugin": "^0.61.9",
     "@vueuse/core": "^10.11.1",
     "@vueuse/nuxt": "^10.11.1",
-    "eslint": "^9.11.1",
+    "eslint": "^9.13.0",
     "eslint-plugin-format": "^0.1.2",
     "vue-tsc": "^2.1.6"
   }
