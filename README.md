@@ -8,14 +8,26 @@ My nuxt starter templates.
 
 - [⚡ Minimal](/minimal)
 - [🛆 shadcn](/shadcn)
+- [📦 Fullstack](/fullstack)
 
 ## Features
 
-- [x] [💅 ESlint](https://github.com/antfu/eslint-config)
-- [x] [📦 VueUse](https://vueuse.org/)
-- [x] [🖼️ Nuxt Image](https://image.nuxt.com/)
-- [x] [🎯 Nuxt Icon](https://nuxt.com/modules/icon)
-- [x] [☑️ Typecheck](https://nuxt.com/docs/api/commands/typecheck)
+- [💅 ESlint](https://github.com/antfu/eslint-config)
+- [📦 VueUse](https://vueuse.org/)
+- [🖼️ Nuxt Image](https://image.nuxt.com/)
+- [🎯 Nuxt Icon](https://nuxt.com/modules/icon)
+- [☑️ Typecheck](https://nuxt.com/docs/api/commands/typecheck)
+
+### shadcn
+
+- 🛆 shadcn-vue
+
+### Fullstack
+
+- 🛆 shadcn-vue
+- 🌐 tRPC Nuxt
+- 💦 Drizzle ORM
+- 🌴 TanStack Query
 
 ## Usage
 

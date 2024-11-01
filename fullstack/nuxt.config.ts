@@ -6,6 +6,8 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxt/image',
     '@nuxt/icon',
+    '@nuxtjs/tailwindcss',
+    'shadcn-nuxt',
   ],
 
   future: {
@@ -17,6 +19,24 @@ export default defineNuxtConfig({
       scan: true,
       sizeLimitKb: 512,
     },
+  },
+
+  imports: {
+    presets: [
+      {
+        from: '@tanstack/vue-query',
+        imports: ['useMutation', 'useQuery', 'useQueryClient', 'skipToken'],
+      },
+    ],
+  },
+
+  shadcn: {
+    prefix: '',
+    componentDir: './app/components/ui',
+  },
+
+  build: {
+    transpile: ['trpc-nuxt'],
   },
 
   compatibilityDate: '2024-10-03',

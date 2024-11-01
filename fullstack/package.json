@@ -9,22 +9,45 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "typecheck": "nuxt typecheck",
+    "db:studio": "drizzle-kit studio",
+    "db:push": "drizzle-kit push",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@nuxt/icon": "^1.6.1",
     "@nuxt/image": "^1.8.1",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@radix-icons/vue": "^1.0.0",
+    "@tanstack/vue-query": "^5.59.16",
+    "@trpc/client": "^10.45.2",
+    "@trpc/server": "^10.45.2",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.0",
     "nuxt": "^3.13.2",
-    "vue": "latest"
+    "pg": "^8.13.1",
+    "radix-vue": "^1.9.8",
+    "shadcn-nuxt": "^0.10.4",
+    "superjson": "^2.2.1",
+    "trpc-nuxt": "^0.10.22",
+    "vue": "latest",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.27.3",
+    "@types/pg": "^8.11.10",
     "@unocss/eslint-plugin": "^0.61.9",
     "@vueuse/core": "^10.11.1",
     "@vueuse/nuxt": "^10.11.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "drizzle-kit": "^0.27.0",
     "eslint": "^9.13.0",
     "eslint-plugin-format": "^0.1.2",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
     "vue-tsc": "^2.1.10"
   }
 }
