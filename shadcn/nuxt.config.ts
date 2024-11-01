@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: [
     '@vueuse/nuxt',
     '@nuxt/image',
@@ -8,10 +9,19 @@ export default defineNuxtConfig({
     'shadcn-nuxt',
     '@nuxtjs/tailwindcss',
   ],
+
   shadcn: {
     prefix: '',
     componentDir: './components/ui',
   },
+
+  icon: {
+    clientBundle: {
+      scan: true,
+      sizeLimitKb: 512,
+    },
+  },
+
   typescript: {
     tsConfig: {
       compilerOptions: {
