@@ -1,13 +1,12 @@
 <template>
   <div class="h-screen flex flex-col">
-    <section class="my-auto mx-auto text-center flex flex-col gap-4">
-      <h1 class="text-6xl font-bold">
-        {{ data?.greeting }}
-      </h1>
+    <section class="my-auto mx-auto flex flex-col gap-4">
+      <pre>{{ data?.greeting }}</pre>
+      <pre>{{ store.someState }}</pre>
       <div class="text-lg text-muted-foreground">
         {{ count }}
       </div>
-      <Button class="mx-auto" @click="count++">
+      <Button @click="count++">
         Count
       </Button>
     </section>
@@ -23,4 +22,6 @@ const { data, suspense } = useQuery({
   queryFn: () => $trpc.hello.query({ text: 'fullstack' }),
 });
 await suspense();
+
+const store = useStore();
 </script>

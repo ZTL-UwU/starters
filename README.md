@@ -25,6 +25,7 @@ My nuxt starter templates.
 ### Fullstack
 
 - 🛆 shadcn-vue
+- 🍍 Pinia (w/ Persisted State)
 - 🌐 tRPC Nuxt
 - 💦 Drizzle ORM
 - 🌴 TanStack Query
