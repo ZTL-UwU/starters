@@ -5,7 +5,7 @@ My starter templates.
 ## Templates
 
 - [⛰️ Nuxt](/nuxt)
-- [📚 Library](/library)
+- [📦 Package](/pkg)
 
 ## License
 
