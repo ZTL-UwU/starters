@@ -14,7 +14,10 @@
   "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
-      "*": ["./dist/*", "./dist/index.d.ts"]
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
     }
   },
   "scripts": {
@@ -23,8 +26,12 @@
     "typecheck": "tsc --noEmit",
     "biome:fix": "biome check --write ."
   },
-  "files": ["dist"],
-  "keywords": ["bun"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "bun"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/ZTL-UwU/pkg-name#readme",
   "repository": {
@@ -35,8 +42,8 @@
   "author": "Tony Zhang <zhangtianli2006@163.com>",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@types/bun": "^1.1.13",
-    "typescript": "^5.6.3",
-    "unbuild": "^2.0.0"
+    "@types/bun": "^1.1.14",
+    "typescript": "^5.7.2",
+    "unbuild": "^3.0.1"
   }
 }
