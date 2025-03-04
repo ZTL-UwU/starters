@@ -17,6 +17,13 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
+  colorMode: {
+    classSuffix: '',
+    disableTransition: true,
+    fallback: 'light',
+    storage: 'cookie',
+  },
+
   icon: {
     clientBundle: {
       scan: true,
