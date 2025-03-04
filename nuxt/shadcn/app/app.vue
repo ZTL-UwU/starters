@@ -1,6 +1,6 @@
 <template>
-  <div class="h-screen flex flex-col">
-    <section class="my-auto mx-auto text-center flex flex-col gap-4">
+  <div class="flex h-screen flex-col">
+    <section class="m-auto flex flex-col gap-4 text-center">
       <h1 class="text-6xl font-bold">
         Hello from shadcn starter
       </h1>

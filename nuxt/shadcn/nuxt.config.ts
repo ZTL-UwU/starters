@@ -11,9 +11,13 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
   ],
 
+  future: {
+    compatibilityVersion: 4,
+  },
+
   shadcn: {
     prefix: '',
-    componentDir: './components/ui',
+    componentDir: './app/components/ui',
   },
 
   icon: {
@@ -30,4 +34,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  compatibilityDate: '2025-03-04',
 });

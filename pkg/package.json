@@ -2,11 +2,21 @@
   "name": "pkg-name",
   "version": "0.0.0",
   "description": "",
+  "author": "Tony Zhang <zhangtianli2006@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ZTL-UwU/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZTL-UwU/pkg-name.git"
+  },
+  "bugs": "https://github.com/ZTL-UwU/pkg-name/issues",
+  "keywords": [
+    "bun"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "import": "./dist/index.mjs"
     }
   },
   "main": "./dist/index.mjs",
@@ -20,30 +30,21 @@
       ]
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "unbuild",
     "prepublishOnly": "unbuild",
     "typecheck": "tsc --noEmit",
-    "biome:fix": "biome check --write ."
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "bun"
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/ZTL-UwU/pkg-name#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ZTL-UwU/pkg-name.git"
-  },
-  "bugs": "https://github.com/ZTL-UwU/pkg-name/issues",
-  "author": "Tony Zhang <zhangtianli2006@163.com>",
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@types/bun": "^1.1.14",
-    "typescript": "^5.7.2",
-    "unbuild": "^3.0.1"
+    "@antfu/eslint-config": "^4.4.0",
+    "@types/bun": "^1.2.4",
+    "eslint": "^9.21.0",
+    "typescript": "^5.8.2",
+    "unbuild": "^3.5.0"
   }
 }

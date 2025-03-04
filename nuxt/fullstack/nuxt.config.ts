@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
+    '@nuxtjs/color-mode',
   ],
 
   future: {

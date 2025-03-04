@@ -1,6 +1,6 @@
 import { z } from 'zod';
-import { publicProcedure, router } from '../trpc';
 import { db } from '~~/server/db';
+import { publicProcedure, router } from '../trpc';
 
 export const appRouter = router({
   hello: publicProcedure
