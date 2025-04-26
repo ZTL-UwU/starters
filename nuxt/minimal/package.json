@@ -13,18 +13,18 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/icon": "^1.10.3",
-    "@nuxt/image": "^1.9.0",
-    "nuxt": "^3.15.4",
+    "@nuxt/icon": "^1.12.0",
+    "@nuxt/image": "^1.10.0",
+    "nuxt": "^3.16.2",
     "vue": "latest"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.4.0",
+    "@antfu/eslint-config": "^4.12.0",
     "@unocss/eslint-plugin": "^66.0.0",
-    "@vueuse/core": "^12.7.0",
-    "@vueuse/nuxt": "^12.7.0",
-    "eslint": "^9.21.0",
+    "@vueuse/core": "^13.1.0",
+    "@vueuse/nuxt": "^13.1.0",
+    "eslint": "^9.25.1",
     "eslint-plugin-format": "^1.0.1",
-    "vue-tsc": "^2.2.8"
+    "vue-tsc": "^2.2.10"
   }
 }

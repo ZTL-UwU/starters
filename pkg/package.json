@@ -34,17 +34,17 @@
     "dist"
   ],
   "scripts": {
-    "build": "unbuild",
-    "prepublishOnly": "unbuild",
+    "build": "tsdown",
+    "prepublishOnly": "tsdown",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.4.0",
-    "@types/bun": "^1.2.4",
-    "eslint": "^9.21.0",
-    "typescript": "^5.8.2",
-    "unbuild": "^3.5.0"
+    "@antfu/eslint-config": "^4.12.0",
+    "@types/bun": "^1.2.10",
+    "eslint": "^9.25.1",
+    "tsdown": "^0.9.8",
+    "typescript": "^5.8.3"
   }
 }
