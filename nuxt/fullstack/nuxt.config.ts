@@ -3,25 +3,17 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
+    '@nuxt/ui',
     '@pinia/nuxt',
     'pinia-plugin-persistedstate/nuxt',
     '@vueuse/nuxt',
-    '@nuxt/image',
-    '@nuxt/icon',
-    '@nuxtjs/tailwindcss',
-    'shadcn-nuxt',
-    '@nuxtjs/color-mode',
+    '@pinia/colada-nuxt',
   ],
+
+  css: ['~/assets/css/main.css'],
 
   future: {
     compatibilityVersion: 4,
-  },
-
-  colorMode: {
-    classSuffix: '',
-    disableTransition: true,
-    fallback: 'light',
-    storage: 'cookie',
   },
 
   icon: {
@@ -29,20 +21,6 @@ export default defineNuxtConfig({
       scan: true,
       sizeLimitKb: 512,
     },
-  },
-
-  imports: {
-    presets: [
-      {
-        from: '@tanstack/vue-query',
-        imports: ['useMutation', 'useQuery', 'useQueryClient', 'skipToken'],
-      },
-    ],
-  },
-
-  shadcn: {
-    prefix: '',
-    componentDir: './app/components/ui',
   },
 
   build: {
