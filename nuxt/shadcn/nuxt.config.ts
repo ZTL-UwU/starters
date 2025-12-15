@@ -1,3 +1,5 @@
+import tailwindcss from '@tailwindcss/vite';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -7,18 +9,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
     'shadcn-nuxt',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode',
   ],
 
-  future: {
-    compatibilityVersion: 4,
-  },
-
-  shadcn: {
-    prefix: '',
-    componentDir: './app/components/ui',
-  },
+  css: ['~/assets/css/tailwind.css'],
 
   icon: {
     clientBundle: {
@@ -27,13 +20,16 @@ export default defineNuxtConfig({
     },
   },
 
-  typescript: {
-    tsConfig: {
-      compilerOptions: {
-        baseUrl: '.',
-      },
-    },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
   },
 
-  compatibilityDate: '2025-03-04',
+  shadcn: {
+    prefix: 'Ui',
+    componentDir: '@/components/ui',
+  },
+
+  compatibilityDate: '2025-12-14',
 });

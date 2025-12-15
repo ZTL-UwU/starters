@@ -1,4 +1,4 @@
-# shadcn
+# Minimal
 
 [![Built With Nuxt][build-with-nuxt-src]][build-with-nuxt-href]
 

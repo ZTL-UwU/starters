@@ -8,10 +8,6 @@ export default defineNuxtConfig({
     '@nuxt/icon',
   ],
 
-  future: {
-    compatibilityVersion: 4,
-  },
-
   icon: {
     clientBundle: {
       scan: true,
@@ -19,5 +15,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-10-03',
+  compatibilityDate: '2025-12-14',
 });

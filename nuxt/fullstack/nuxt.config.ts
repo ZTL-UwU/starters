@@ -12,10 +12,6 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  future: {
-    compatibilityVersion: 4,
-  },
-
   icon: {
     clientBundle: {
       scan: true,
@@ -27,5 +23,5 @@ export default defineNuxtConfig({
     transpile: ['trpc-nuxt'],
   },
 
-  compatibilityDate: '2024-10-03',
+  compatibilityDate: '2025-12-14',
 });
